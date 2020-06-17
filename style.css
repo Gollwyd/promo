@@ -1,0 +1,43 @@
+div.promo {
+    margin: 50px;
+}
+div.promo  p.quote {
+    text-align: center;
+    font-size: 1rem;
+    
+}
+q {
+    font-size: 2rem;
+    font-family: Times, serif; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание текста */
+    color: navy; /* Синий цвет текста */
+    quotes: "\00ab" "\00bb"; /* Кавычки в виде двойных угловых скобок */
+   }
+div.promo div.part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+div.promo div.part div.text {
+    flex-basis: 2;
+    width: 600px;
+}
+
+
+div.promo div.img {
+    flex-basis: 1;
+    margin: 0 auto;
+    
+}
+
+div.promo div.img img {
+      height: 200px;
+      margin: 0 auto;
+
+}
