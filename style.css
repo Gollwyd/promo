@@ -1,5 +1,6 @@
 div.promo {
     margin: 50px;
+    
 }
 div.promo  p.quote {
     text-align: center;
@@ -11,7 +12,7 @@ q {
     font-family: Times, serif; /* Шрифт с засечками */
     font-style: italic; /* Курсивное начертание текста */
     color: navy; /* Синий цвет текста */
-    quotes: "\00ab" "\00bb"; /* Кавычки в виде двойных угловых скобок */
+    quotes: "\00ab" "\00bb"; /* Кавычки-елочки */
    }
 div.promo div.part{
     display: flex;
@@ -19,10 +20,6 @@ div.promo div.part{
     justify-content: space-between;
     
 }
-
-
-
-
 
 div.promo div.part div.text {
     flex-basis: 2;
